@@ -18,7 +18,7 @@ public class Trabalhador {
         this.ferias = false;
     }
     public void setHorasTrab(int horasTrab) {
-        this.horasTrab = horasTrab;
+        this.horasTrab += horasTrab;
         }
     
     public void ferias() {
